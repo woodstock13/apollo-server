@@ -1,8 +1,10 @@
 const Query = require("./resolvers/query");
-const Session = require("./resolvers/session");
 const Mutation = require("./resolvers/mutation");
+
+const Session = require("./resolvers/session");
+
 module.exports = {
   Query,
-  Session,
   Mutation,
+  Session,
 };
